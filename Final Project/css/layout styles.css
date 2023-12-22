@@ -1,0 +1,42 @@
+/* This first class changes styles for the entirety of the page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: azure;
+}
+/* This changes the styles of every list */
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+/* This changes the style of every a attribute */
+a {color: maroon;
+text-decoration: none;
+}
+/* This changes the styles of the a attributes when the user hovers their mouse over them */
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* This changes the color of the text of each a attribute that has been clicked on */
+a:visited{
+    color: blue;
+}
+/* This changes a specific section making each resume heading different from the text under them */
+.ResumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+/* These each are applied to specific places to change text */
+.Underline{text-decoration: underline;}
+.Bold {font-weight: bold;}
+.Justify{text-align: justify;}
+/* This changes the background image on the home page */
+.HomeBg {
+    background-image: url('../Images/Background.jpg');
+    background-position: top left;
+    background-size: fill;
+}
